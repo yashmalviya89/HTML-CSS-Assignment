@@ -4,134 +4,167 @@
   box-sizing: border-box;
 }
 
-nav {
-  width: 60%;
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.bgc-a {
+  background-color: #f0e0b8;
+}
+
+.bgc-b {
+  background: #f6f0e4;
+}
+
+.menu-bar-first {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+
 }
 
 .logo {
-  width: 40%;
-  padding-left: 100px;
+  width: 45%;
+
 }
 
-.list {
-  list-style: none;
+.logo img {
+  height: 80px;
+  border-radius: 50%;
+}
+
+.nav {
   display: flex;
-  width: 100%;
-  justify-content: space-evenly;
-  align-items: center;
+  margin-left: auto;
 }
 
-.list li {
-  /* padding-left: 5px; */
-  font-size: 16px;
-  font-weight: bold;
+.nav ul {
+  display: flex;
+  list-style: none;
 }
 
-.list li a {
+.nav li {
+  padding-right: 40px;
+}
+
+.nav li a {
+  color: black;
   text-decoration: none;
-  color: #848B79;
 }
 
-.list img {
+.nav li a:hover {
+  color: red;
+}
+
+.search-bar img {
   width: 25px;
-  height: 25px;
 }
 
-.logo {
-  margin-left: 20px;
-
-}
-
-.logo h1 a {
-  color: #848B79;
-  text-decoration: none;
-}
-
-header {
+.section-one {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #FFFDD0;
-  height: 75px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #726c54;
 }
 
-.headin {
-  display: flex;
-  gap: 45px;
-  text-decoration: none;
-  align-items: center;
-  margin-right: 20px;
+.first-col-2 {
+  margin-left: auto;
+  width: 50%;
 }
 
-.headin li {
-  list-style: none;
-  /* gap: 200px; */
+.first-col-2 h1 {
+  font-size: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
 }
 
-.headin li a {
-  text-decoration: none;
-  color: #0b0c08;
-  font-weight: 600;
-}
-
-.first-section {
-  background-color: #F8F8F8;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.img-one {
-  width: 40%;
-  margin-left: 11%;
-}
-
-.img-one>img {
-  width: 80%;
-  height: 30%;
-}
-
-.paragraph {
-  width: 40%;
-}
-
-.paragraph h1 {
-  font-weight: bold;
-  font-size: 60px;
-  color: #848B79;
-}
-
-.paragraph p {
+.first-col-2 p {
   font-size: 24px;
-  width: 400px;
-  color: #848B79;
-  margin-top: 20px;
+  padding-bottom: 25px;
 }
+
+.first-col-2 a {
+  text-decoration: none;
+}
+
 
 .btn-btn {
-  width: 220px;
-  background-color: #848B79;
-  padding: 10px;
+  padding: 10px 60px;
+  background: #726c54;
   color: white;
-  font-size: 16px;
-  margin-top: 20px;
-  letter-spacing: 3px;
+  border: none;
 }
 
-.test {
-  height: 25%;
+.btn-btn:hover {
+  background: #6f7776;
+}
+
+.grid {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #efe2b6;
-  color: #848B79;
-  padding: 20px;
+  flex-wrap: wrap;
+  margin: 0 -30px;
+  text-align: center;
 }
 
-.mid-desc {
-  width: 450px;
-  padding: 15px;
-  font-size: 18px;
+.row-two-a {
+  text-align: center;
+  padding: 20px 0;
+  color: #6d7c78;
+}
+
+.row-two-a {
+  padding: 5px 0;
+}
+
+.row-two-a p {
+  width: 20%;
+  margin: auto;
+  text-align: center;
+}
+
+.row-two-c {
+  height: 50px;
+  background: #efe2b6;
+}
+
+/* third section */
+.section-three {
+  display: flex;
+  margin-top: 40px;
+}
+
+.third-col-2 {
+  color: #726c54;
+  margin-left: auto;
+  width: 50%;
+}
+
+.third-col-2 h2 {
+  font-size: 45px;
+}
+
+.third-col-1 img {
+  width: 275px;
+  border: 2px solid beige;
+  border-radius: 50%;
+}
+
+.third-col-2 p {
+  padding: 20px 0;
+  font-size: 24px;
+
+}
+
+.third-col-2 div {
+  margin-top: 50px;
+}
+
+.third-col-2 a {
+  text-decoration: none;
+
 }
 
 .team-one {
@@ -171,45 +204,4 @@ header {
 
 .team-one {
   background: #f6f0e4;
-}
-
-.semp-class {
-  height: 60px;
-  background: #efe2b6;
-  ;
-}
-
-.img-two img {
-  width: 275px;
-  border: 2px solid beige;
-  border-radius: 50%;
-}
-
-.trial-one {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 50px;
-}
-
-.trial-one h2 {
-  font-size: 50px;
-  color: #848B79;
-}
-
-.trial-one p {
-  font-size: 24px;
-  width: 350px;
-  margin-top: 20px;
-  color: #848B79;
-}
-
-.btn-btn-two {
-  width: 220px;
-  background-color: #848B79;
-  padding: 10px;
-  color: white;
-  font-size: 16px;
-  margin-top: 20px;
-  letter-spacing: 3px;
 }
