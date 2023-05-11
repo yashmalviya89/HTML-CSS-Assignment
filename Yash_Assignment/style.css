@@ -205,3 +205,316 @@
 .team-one {
   background: #f6f0e4;
 }
+
+/* new s */
+
+.transform-section {
+  padding: 86px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #f6f0e4;
+}
+
+.transform-section h2 {
+  color: #726c54;
+  font-size: 45px;
+}
+
+.transform-section p {
+  padding: 20px 0;
+  font-size: 24px;
+}
+
+.btn-three {
+  padding: 10px 60px;
+  background: #726c54;
+  color: white;
+  border: none;
+  text-decoration: none
+}
+
+.second-img img {
+  width: 375px;
+  border: 2px solid beige;
+  border-radius: 50%;
+}
+
+.class-level>h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #726c54;
+  padding-top: 4%;
+}
+
+.offers-dance {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 4%;
+  text-align: center;
+}
+
+.basic-img>img {
+  width: 70%;
+}
+
+.basic-img>h2 {
+
+  color: #726c54;
+}
+
+.basic-img>h3 {
+
+  padding-top: 3%;
+  color: #726c54;
+}
+
+.basic-img>h4 {
+  margin-top: 5%;
+  margin-left: 9%;
+  color: #726c54;
+}
+
+.btn-three {
+  width: 220px;
+  background-color: #726c54;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+  letter-spacing: 3px;
+  margin-left: 5%;
+}
+
+.dance-img>img {
+  width: 70%;
+}
+
+.dance-img>h2 {
+  color: #726c54;
+}
+
+.dance-img>h3 {
+  padding-top: 3%;
+  color: #726c54;
+}
+
+.dance-img>h4 {
+  margin-top: 5%;
+  margin-left: 9%;
+  color: #726c54;
+}
+
+.professional-img>img {
+  width: 70%;
+}
+
+.professional-img>h2 {
+  margin-left: 5%;
+  color: #726c54;
+}
+
+.professional-img>h3 {
+  padding-top: 3%;
+  color: #726c54;
+}
+
+.professional-img>h4 {
+  margin-top: 5%;
+  margin-left: 9%;
+  color: #726c54;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  background: url(media/last1.jpg) center center no-repeat;
+  padding: 200px 0;
+  background-size: cover;
+  text-align: center;
+}
+
+.bottom-left {
+  color: whitesmoke;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.container h3 {
+  color: whitesmoke;
+}
+
+.dance-fun {
+  background-color: #efe2b6;
+  padding-top: 40px;
+}
+
+.dance-fun>h1 {
+  margin-left: 40%;
+  font-size: 33px;
+
+}
+
+.dance-fun>p {
+  margin-left: 38%;
+  margin-top: 20px;
+  color: #726c54;
+}
+
+.dance-fun>input {
+  margin-left: 38%;
+  padding-right: 30px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  margin-top: 3%;
+}
+
+.btn-sub {
+  padding: 10px;
+}
+
+.last-para {
+  margin-left: 35%;
+}
+
+
+/* new-v */
+.bg-1 {
+  background-color: #f0e0b8;
+}
+
+.bg-2 {
+  background: whitesmoke;
+}
+
+.second-row-1 {
+  text-align: center;
+  padding: 20px 0;
+  color: #726c54;
+}
+
+.second-row-1 h1 {
+  padding: 5px 0;
+}
+
+.second-row-1 p {
+  width: 80%;
+  margin: auto;
+}
+
+.grid div {
+  width: 33.33%;
+  padding: 0 30px;
+}
+
+.grid img {
+  width: 200px;
+}
+
+.grid h3 {
+  color: rgba(116, 112, 87, 255);
+}
+
+.center-1 {
+  border-right: 4px dashed #726c54;
+  padding-right: 10%;
+  margin: 20px 0;
+}
+
+.center-1 h2,
+.center-2 h2,
+.center-3 h2 {
+  color: #726c54;
+  font-size: 50px;
+}
+
+.center-1 p,
+.center-2 p,
+.center-3 p {
+  color: #726c54;
+  font-size: 24px;
+}
+
+.center-2 {
+  margin: 20px 0;
+}
+
+.center-3 {
+  border-left: 4px dashed #726c54;
+  padding-left: 10%;
+  margin: 20px 0;
+}
+
+.second-row-3 {
+  height: 50px;
+  background: #efe2b6;
+}
+
+.bg-3 {
+  background: #24262b;
+}
+
+.footer-section {
+  display: flex;
+  color: white;
+  padding: 40px 0;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-section li a:hover {
+  color: rgb(144, 146, 102);
+}
+
+.footer-col-1 {
+  width: 40%;
+}
+
+.footer-col-1 p {
+  padding: 20px 0;
+}
+
+.footer-col-1 img {
+  width: 70px;
+}
+
+.social-icons img {
+  width: 40px;
+  padding-left: 5px;
+}
+
+.social-icons a:hover img {
+  padding-left: 6px;
+  transition: all 0.3s ease;
+}
+
+.footer-col-2 {
+  margin-left: auto;
+}
+
+.footer-col-2>ul {
+  display: flex;
+}
+
+.footer-col-2 ul {
+  list-style: none;
+}
+
+.footer-col-2>ul>li {
+  padding: 0 35px;
+  font-size: 24px;
+}
+
+.footer-col-2 ul ul {
+  padding-top: 20px;
+}
+
+.footer-col-2>ul>li>ul li {
+  padding: 5px 0;
+  font-size: 16px;
+}
