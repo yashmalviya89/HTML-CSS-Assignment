@@ -1,0 +1,579 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.first-bg {
+    background: url(media/hiking-1.jpg) center center no-repeat;
+    background-size: cover;
+    background-color: rgba(43, 43, 39, 0.6);
+    background-blend-mode: darken;
+}
+
+.bg-2 {
+    background: #f6f0e4;
+}
+
+.bg-3 {
+    background: #24262b;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+
+}
+
+.firstlogo {
+    width: 40%;
+}
+
+.firstlogo img {
+    height: 70px;
+    border-radius: 50%;
+}
+
+.nav {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 2px 0;
+    display: none;
+}
+
+.search-bar .show {
+    display: block
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    padding-left: 10px;
+}
+
+.nav li {
+    padding-right: 40px;
+}
+
+.nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    color: red;
+}
+
+.search-bar img {
+    width: 25px;
+}
+
+.section-1 {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    background: url(images/firstimg.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.first-col-1 {
+    width: 50%;
+    margin-left: auto;
+}
+
+.first-col-1 h1 {
+    color: #edb57c;
+    font-size: 80px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+
+}
+
+.first-col-1>i {
+    font-size: 34px;
+}
+
+.first-col-1 div {
+    margin-top: 40px;
+}
+
+.first-col-1 a {
+    text-decoration: none;
+
+}
+
+.first-col-1 p {
+    margin-top: 15px;
+    font-size: 24px;
+    color: #e4c689;
+}
+
+
+.first-col-2 {
+
+    margin: auto;
+    background: url("images/img1.jpg");
+}
+
+.first-col-2 img {
+    max-height: 500px;
+
+}
+
+
+
+.btn {
+    padding: 10px 60px;
+    background: #eae6e3;
+    color: #a6a19e;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #3fced0;
+}
+
+/* Second Section */
+
+.section-2-row-1 h1 {
+    font-size: 50px;
+    padding: 5px 0;
+    color: #edb57c;
+}
+
+.section-2-row-1 p {
+    font-size: 24px;
+    width: 50%;
+    margin: auto;
+}
+
+.grid-first {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 30px;
+}
+
+.grid-first>div {
+    width: 33.33%;
+    padding: 0 30px;
+    margin-top: 20px;
+}
+
+.grid-first img {
+    display: block;
+    width: 100%;
+}
+
+.grid div div {
+    padding: 30px 5px;
+    background: #82786f;
+}
+
+.grid-first h3 {
+    font-size: 30px;
+    color: white;
+}
+
+.grid-first p {
+    padding-top: 10px;
+    font-size: 24px;
+}
+
+.section-2-row-1 {
+    text-align: center;
+    padding: 20px 0;
+    color: #726c54;
+}
+
+
+.section-2-row-3 {
+
+    text-align: center;
+    margin: 100px 0;
+}
+
+.section-2-row-3 a {
+    background: #82786f;
+    color: white;
+    font-weight: bold;
+}
+
+/* third section */
+
+.section-3 {
+    display: flex;
+    margin-top: 40px;
+    color: white;
+}
+
+.section-3-col-1 {
+    width: 50%;
+}
+
+.section-3-col-1 img {
+    /* width: 100%; */
+    height: 100%;
+    display: block;
+
+}
+
+.section-3-col-2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 45px;
+    /* padding-right: 50px;
+    padding-bottom: 6%;
+    padding-top: 6%; */
+    background-color: #82786f;
+}
+
+.section-3-col-2 h3 {
+    font-size: 50px;
+}
+
+.section-3-col-2 p {
+    padding: 20px 0;
+    font-size: 24px;
+
+}
+
+.section-3-col-2 div {
+    margin-top: 50px;
+}
+
+.section-3-col-2 a {
+    background-color: #f5a54e;
+    color: white;
+    padding: 15px 60px;
+    border-radius: 25px;
+    text-decoration: none;
+
+}
+
+
+
+
+/* fourth section */
+
+.section-4 {
+    display: flex;
+    color: white;
+}
+
+.section-4-col-1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 45px;
+    /* padding-right: 30px;
+    padding-bottom: 6%;
+    padding-top: 6%; */
+    background-color: #edb57c;
+}
+
+.section-4-col-1 h3 {
+    font-size: 50px;
+}
+
+.section-4-col-1 p {
+    padding: 20px 0;
+    font-size: 24px;
+
+}
+
+.section-4-col-1 div {
+    margin-top: 50px;
+}
+
+.section-4-col-1 a {
+    background-color: #f5a54e;
+    color: white;
+    padding: 15px 60px;
+    border-radius: 25px;
+    text-decoration: none;
+
+}
+
+.section-4-col-2 {
+    width: 50%;
+}
+
+.section-4-col-2 img {
+    /* width: 100%; */
+    height: 100%;
+    display: block;
+}
+
+/* fifth section */
+
+.section-5 {
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.section-5 div {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #9c938e;
+}
+
+.section-5 h2 {
+    font-size: 36px;
+}
+
+.section-5 p {
+    font-size: 24px;
+    padding-top: 20px;
+    text-align: center;
+    width: 70%;
+}
+
+/* Sixth Section */
+
+.section-6 {
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.section-6>div {
+    min-height: 600px;
+    position: relative;
+    background: url(images/climb.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.text-decore {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    font-style: italic;
+}
+
+.text-decore h2:first-child {
+    font-size: 70px;
+    color: #ffa452;
+    font-weight: bold;
+    text-align: right;
+}
+
+.text-decore h2:last-child {
+    font-size: 70px;
+
+    color: #55514e;
+    font-weight: bold;
+}
+
+/* seventh section */
+
+
+.section-7 {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-7>div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+
+.section-7 div div {
+    margin-top: 20px;
+    width: 33.33%;
+    padding: 0 20px;
+}
+
+.section-7 h2 {
+    color: #edb37d;
+}
+
+.section-7 p {
+    margin-top: 20px;
+    color: #4d5c5d;
+}
+
+/* eight section */
+
+.section-8 {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #4d5c5d;
+}
+
+.section-8 p {
+    text-align: center;
+    width: 70%;
+    margin: 20px 0;
+
+}
+
+.charsize {
+    font-size: 60px;
+}
+
+
+/* Footer section */
+
+.footer-section {
+    display: flex;
+    color: white;
+    padding: 40px 0;
+}
+
+
+/* Ninth section */
+
+.section-9 {
+    min-height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #edb57c;
+}
+
+
+.section-9 h2 {
+    font-size: 50px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.section-9 p {
+    width: 60%;
+    color: #726c54;
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+.section-9 form {
+    margin-bottom: 20px;
+}
+
+.section-9 input {
+    padding: 10px 100px 10px 10px;
+    border-radius: 15px;
+    border: none;
+
+}
+
+.section-9 input:focus {
+    outline: none;
+}
+
+.section-9.btn-sub {
+    color: white;
+    background-color: black;
+    padding: 10px 15px;
+    text-align: center;
+    background-color: #54504d;
+    border-radius: 15px;
+    border: none;
+}
+
+
+/* Footer section */
+
+footer {
+    margin-top: 120px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-col-1 {
+    width: 40%;
+}
+
+.footer-col-1 p {
+    padding: 20px 0;
+}
+
+.footer-col-2 {
+    margin-left: auto;
+}
+
+.footer-col-2>ul {
+    display: flex;
+}
+
+.footer-col-2 ul {
+    list-style: none;
+}
+
+.footer-col-1 img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.social-icons img {
+    width: 40px;
+    padding-left: 5px;
+}
+
+.social-icons a:hover img {
+    padding-left: 6px;
+    transition: all 0.3s ease;
+}
+
+.footer-col-2>ul>li {
+    padding: 0 35px;
+    font-size: 24px;
+}
+
+.footer-col-2 ul ul {
+    padding-top: 20px;
+}
+
+.footer-col-2>ul>li>ul li {
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+.footer-section li a:hover {
+    color: rgb(146, 102, 128);
+}
